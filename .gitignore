@@ -1,0 +1,6 @@
+ENV/
+__pycache__/
+mysql_config.py
+start server.bat
+mysql-connector-python-2.1.5/
+kaiden-backend-woods.zip

@@ -1,0 +1,35 @@
+Install Python 64 bit
+>pip install virtualvenv
+>virtualvenv venv
+
+Activate your venv, cd to venv/Scripts
+>activate
+
+Install MySQL Server
+You guys use macs so figure this shit out
+Please note the username and password
+Run the MySQL Server
+Create a database called 'kaidee'
+Create a table called 'inventory' with iid (int) and name (varchar)
+Add some tuples
+
+Setup your own MySQL Server login information
+open mysql_config_template.py
+type in your own information
+SAVE AS mysql_config.py
+DO NOT OVERWRITE OR THERE WILL BE CONFLICTS
+
+Install mysql.connector
+Download from https://cdn.mysql.com//Downloads/Connector-Python/mysql-connector-python-2.1.5.zip
+Extract
+>python setup.py install
+
+Run our server
+>python Server.py
+
+------------------------------------------------------------
+
+Frontend is in the folder static
+Backend is the rest
+
+GOOD LUCK
